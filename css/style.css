@@ -1,0 +1,19 @@
+#anima-div-1{
+    background: url("../img/gumball.png");
+    height:768px;
+    width: calc(1366px / 4);
+    animation: anima-sprite-2 1s steps(4) infinite;
+    position: relative;
+    left: 10%;
+    top: 250px;
+    }
+
+    @keyframes anima-sprite-2 {
+        from{background-position: 0px;}
+        to{background-position: -1366px;}
+    
+    }
+
+body{
+    background-color: aquamarine;
+}
